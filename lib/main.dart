@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
       height: 56,
       textStyle: const TextStyle(
         fontSize: 22,
-        color: Color.fromRGBO(30, 60, 87, 1),
+        color: Color(0xFF1E3C57),
       ),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(19),
@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'We just sent an SMS',
               style: TextStyle(
-                color: Color.fromRGBO(30, 60, 87, 1),
+                color: Color(0xFF1E3C57),
                 fontSize: 28,
                 fontWeight: FontWeight.w500,
               ),
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'Enter the security code we sent to \n+62 8123456789',
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: Color.fromRGBO(30, 60, 87, 1),
+                color: Color(0xFF1E3C57),
                 fontSize: 16,
               ),
             ),
@@ -117,7 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
               focusedPinTheme: defaultPinTheme.copyWith(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(19),
-                  border: Border.all(color: Color.fromRGBO(110, 17, 231, 1)),
+                  border: Border.all(color: Color(0xFF6E11E7)),
                 ),
               ),
               onCompleted: (pin) {
@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
               width: screenWidth * 0.8,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color.fromRGBO(110, 17, 231, 1),
+                  backgroundColor: Color(0xFF6E11E7),
                 ),
                 onPressed: () {},
                 child: Text('Submit', style: TextStyle(color: Colors.white)),
@@ -139,7 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'Did not receive the code?',
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: Color.fromRGBO(30, 60, 87, 1),
+                color: Color(0xFF1E3C57),
                 fontSize: 16,
               ),
             ),
@@ -153,7 +153,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     'Resend',
                     style: TextStyle(
                       color: _isResendEnabled
-                          ? Color.fromRGBO(110, 17, 231, 1)
+                          ? Color(0xFF6E11E7)
                           : Colors.grey,
                       fontSize: 16,
                     ),

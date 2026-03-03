@@ -100,7 +100,7 @@ final defaultPinTheme = PinTheme(
   height: 56,
   textStyle: TextStyle(
     fontSize: 22,
-    color: Color.fromRGBO(30, 60, 87, 1),
+    color: Color(0xFF1E3C57),
   ),
   decoration: BoxDecoration(
     borderRadius: BorderRadius.circular(19),
@@ -147,7 +147,7 @@ Pinput(
   focusedPinTheme: defaultPinTheme.copyWith(
     decoration: BoxDecoration(
       borderRadius: BorderRadius.circular(19),
-      border: Border.all(color: Color.fromRGBO(110, 17, 231, 1)),
+      border: Border.all(color: Color(0xFF6E11E7)),
     ),
   ),
   onCompleted: (pin) {
